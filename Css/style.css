@@ -1,3 +1,10 @@
+h3 /*Использование абсолютного позиционирования*/ 
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;   
+}
 h1 { 
     font-size: 50px;
     margin: 20px 0 40px 0;
@@ -20,12 +27,7 @@ h1 {
     background-color: rgb(41, 41, 107);
     text-align: right;/*Текст по правому краю */
 } 
-h3 /*Использование абсолютного позиционирования*/ 
-{
-    position: absolute;
-    top: 0;
-    right: 0;   
-}
+
 h4 /* Использование относительного позиционирования*/
 {
     position:relative;
@@ -48,7 +50,6 @@ h4 /* Использование относительного позициони
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 body {
